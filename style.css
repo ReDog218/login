@@ -1,0 +1,26 @@
+
+h1 {
+	font-family: Georgia;
+	text-align: center;
+	font-size: calc(10px + 60 * (100vw / 1920));
+	color: #030000;
+}
+.text {
+	line-height: calc(1px + 20 * (100vw / 1080));
+	font-family: Georgia;
+	text-align: center;
+	font-size: calc(12px + 22 * (100vw / 1920));
+	color: #030000;
+}
+.in {
+	width: calc(60px + 375 * (100vw / 1980));/*500*/
+	height: calc(15px + 20 * (100vw / 1080));
+}
+.in2 {
+	width: calc(23px + 345 * (100vw / 1980));/*444*/
+	height: calc(15px + 20 * (100vw / 1080));
+}
+.out {
+	height: calc(15px + 20 * (100vw / 1080));
+	font-family: Georgia;
+}
