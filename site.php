@@ -1,9 +1,9 @@
 
+
 <head>
 	<title>Test3</title>
 	<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="">
    </head>
 <body bgcolor="ffffff">
 	<br><br><br><br>
@@ -19,3 +19,9 @@
 	<input class="in2" type="text" name="O">
 	<input class="out" type="submit" value="Войти">
 	</form>
+	<p class="msg"><?php
+        session_start();
+		echo $_SESSION['message'];
+		unset($_SESSION['message']);
+		?></p>
+	</div>
